@@ -1,6 +1,6 @@
 %% Define paths 
 
-homepath = '/Users/Rowan/Desktop';
+homepath = 'path...';
 addpath(genpath(homepath)); 
 
 neural_dat = [homepath '/analyse_timeCourses/'];
