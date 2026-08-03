@@ -39,7 +39,4 @@ plot_dens_lr <- stan_plot(fit_rl, pars=c('a_lr', 'b_lr', 'lr'), show_density=T, 
 plot_trace <- stan_trace(fit_rl, pars=c('k_tau','theta_tau', 'a_lr', 'b_lr'), inc_warmup = F)
 
 # save model and summary table
-rl_sum <- summary(fit_rl)
-rl_sum <- rl_sum$summary
-write.csv(rl_sum, 'modelling/summaries/model_1_summary.csv')
 save(fit_rl, file='modelling/fitted_models/model_1.RData')
