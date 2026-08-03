@@ -20,6 +20,7 @@ This repository contains the behavioural data, task code, and analysis code for 
   - activation (GLM) analyses
   - multivoxel pattern analysis (MVPA)
   - functional connectivity analyses
+  - requires fMRI data which can be made available upon request
 
 **`task/`**
 - Source code required to run the behavioural devaluation task.
